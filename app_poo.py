@@ -69,7 +69,7 @@ if pagina == "🏠 Home":
     st.markdown("1️⃣ **Clase Persona**: Para manejar información personal (nombre, edad, profesión).")
     st.markdown("2️⃣ **Clase Calculadora de Listas**: Para realizar cálculos estadísticos básicos sobre listas de números.")
     st.write("Selecciona una opción en el menú desplegable para explorar cada uno de los ejemplos.")
-    st-write("By: Moises Tarazona")
+    st.write("By: Moises Tarazona")
 
 elif pagina == "📋 Ejemplos":
     tabs = st.tabs(["👤 Ejemplo de Persona", "📋 Ejemplo de Calculadora de Listas"])
@@ -104,6 +104,7 @@ elif pagina == "📋 Ejemplos":
         if st.button("Limpiar lista"):
             st.session_state.calculadora.lista = []
             st.info("🗑️ Lista limpiada con éxito.")
+
 
 
 
